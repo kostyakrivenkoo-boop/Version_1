@@ -15,15 +15,13 @@
  - Only certain amount of people can sign up for the event
  - Registration for event closes certain time before event 
  - It might be an age restriction for certain events
- -
- -
- -
- -
- -
+ - Event might be closed any time
+ - Certain information about event can see only andmis 
+ - Registered volunteer might want to withdraw registration 
  
 ## Unkowns
-|-------- |---------------|
-|Question | Who can answer|
+| Question | Who can answer |
+| -------- | -------------- |
 ## Stakeholders:
   -
   -
