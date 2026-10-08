@@ -13,25 +13,17 @@
 
 ## Assumtions:
  - Only certain amount of people can sign up for the event
- -  
- -
+ - Registration for event closes certain time before event 
+ - It might be an age restriction for certain events
  -
  -
  -
  -
  -
  
-## Unkowns:
- -
- -
- -
- -
- -
- -
- -
- -
- -
-
+## Unkowns
+|-------- |---------------|
+|Question | Who can answer|
 ## Stakeholders:
   -
   -
