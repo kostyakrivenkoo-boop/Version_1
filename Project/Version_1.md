@@ -40,37 +40,41 @@
   - Developers: Needs a clear explained requirements with what and how should work and be realized
 
 ## Candidate Requrements:
-  -
-  -
-  -
-  -
-  -
+  - Functional
+    - System shall show available events that needs volounteers
+    - System should have a clear UI that does not require any instrunctions and native to use
+    - System should store volounteer information in one place
+  - Non Functional
+    - Constrains( Privacy and Security) - Only admins and event managers should be able to see who applyed for event  and have their information to contact them - Some personal data should be encrypted to prevent leak of personal information
 
 ## Requirements Surgery:
-  -
-  -
-  -
-  -
-  -
-  -
+  - R1
+    - Weakness: Dosen't specify type of events and how many of them are handling through the year
+    - Rewritten: Organisation provide an iformation about sports/shops/music events that require volounteers and handlig around 70 events through the year 
 
 ## Goals:
-  -
-  -
-  -
-  -
-  -
-  -
+  - Provide one system registration for events
+  - Show available events to volounteers 
+  - Provide information about events e.g. time, place, skills requred, etc.
+  - Provide information about volounteers to events managers
 
 ## Scope:
   - # In Scope
-    -
-    -
-    -
-    -
-- # Out of scope:
-    -
-    -
-    -
-    -
-    -
+      - Mixed booking system
+      - Organisators doesn't know who attends the event
+      - Volounteer's information stored in several places
+  - # Out of scope:
+      - Who is creating events?
+      - What happens if volounteer cancels?
+      - Who can register as a volunteer?
+      - What accessibility requirements should be considered?
+ 
+## Use-Case
+
+# Functional requrements
+  - System shall show available events that needs volounteers
+# Actor
+  - Volounteer. Volunteers are a core external user group defined in the scenario.
+# Actor's Goal
+  - To find information about available events that require volounteer
+
