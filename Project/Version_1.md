@@ -1,3 +1,5 @@
+Information here is a basic draft with what came to mind on a certain topic not all of it will be used in a final project 
+
 ## Scenario A - Community Volunteer & Event Coordination System
 
 ## Facts:
@@ -33,10 +35,10 @@
 
 
 ## Stakeholders:
-  - Testers: Need a clear test cases
+  - Testers: Need a clear test cases for the software with clear evidences to verify that everything work as required
   - Volunteers: Need a software where they can register for event via one register system, see what skills required and other info about event
-  - Event organizations: Needs to see how many volunteers registered
-  - Organization Admission: Needs a software to register volunteers show them data about events and show them information they require
+  - Event organiser: Create and manage events, see availability, skills, registrations and attendance; contact relevant volunteers
+  - Organisation Admission: Needs a software to maintain volunteers show them data about events and show them information they require
   - Developers: Needs a clear explained requirements with what and how should work and be realized
 
 ## Candidate Requrements:
@@ -60,21 +62,47 @@
 
 ## Scope:
   - # In Scope
-      - Mixed booking system
-      - Organisators doesn't know who attends the event
-      - Volounteer's information stored in several places
+      -  volunteer account/profile management
+      -  skills and availability
+      -  event creation and maintenance by authorised organisers
+      -  event browsing and details
+      -  volunteer registration and withdrawal
+      -  eligibility checks against event requirements
+      -  attendee lists for authorised organisers
+      -  event update/cancellation notifications
+      -  attendance recording; role-based access
+      -  privacy and accessibility controls
   - # Out of scope:
-      - Who is creating events?
-      - What happens if volounteer cancels?
-      - Who can register as a volunteer?
-      - What accessibility requirements should be considered?
+      - Payroll
+      - Volunteer expense claims
+      - Fundraising
+      - Public event ticket sales
+      - Background-check processing
+      - Full learning-management system
+      - Integration with external email/SMS providers beyond sending notifications
  
 ## Use-Case
 
 # Functional requrements
   - System shall show available events that needs volounteers
-# Actor
-  - Volounteer. Volunteers are a core external user group defined in the scenario.
-# Actor's Goal
-  - To find information about available events that require volounteer
-
+  - The system shall allow a volunteer to create an account using a unique email address.
+  - The system shall allow an authenticated volunteer to view and update their contact details, skills and availability.
+  - The system shall display published events with date, time, location, activity description and help/skill requirements where provided.
+  - The system shall allow an authorised organiser to create, edit, publish and cancel an event.
+  - The system shall allow a volunteer to register for an available event.
+  - The system shall allow a volunteer to withdraw from an event registration.
+  - The system shall compare a volunteer’s recorded skills with the skills specified for an event
+  - The system shall allow an authorised organiser to view the registered volunteer list for an event.
+  - The system shall allow an authorised organiser to record whether a registered volunteer attended an event.
+  - The system shall send a registration confirmation to the volunteer’s registered contact channel.
+  - The system shall notify registered volunteers when an organiser changes or cancels their event.
+  - The system shall allow an organiser to send a message to all registered volunteers for an event or to a selected subset.
+  - The system shall prevent a volunteer from registering for an event when a required skill is not recorded, unless an authorised organiser overrides the restriction.
+  - The system shall allow an organiser to search or filter volunteers by recorded availability and skills.
+# Non-Functional requirements
+  - The system shall restrict personal volunteer information and attendee lists to users with an authorised role.
+  - The system shall collect only personal information necessary for volunteer coordination and display a privacy notice before account completion.
+  - The system shall support keyboard-only operation and provide programmatic labels and text alternatives for interactive controls and meaningful images.
+  - The system shall present its main volunteer tasks in a responsive layout usable on mobile, tablet and desktop screen sizes.
+  - For normal operation, the system shall display event search results within 3 seconds for up to 500 concurrent users.
+  - The system shall maintain an audit record of event creation, material changes, cancellation and attendance updates, including actor and timestamp.
