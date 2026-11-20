@@ -70,7 +70,8 @@ Information here is a basic draft with what came to mind on a certain topic not 
       -  eligibility checks against event requirements
       -  attendee lists for authorised organisers
       -  event update/cancellation notifications
-      -  attendance recording; role-based access
+      -  attendance recording
+      -  role-based access
       -  privacy and accessibility controls
   - # Out of scope:
       - Payroll
